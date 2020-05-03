@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>TailwindCSS</title>
-        <link rel="stylesheet" href="css/styles.css" />
-    </head>
-    <body>
-        <h2>Hello world</h2>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="mx-4">
+    <h2 class="h-32 w-1/2 pt-8 pl-4 ml-8 mt-16 mb-6 bg-yellow-500 text-blue-700">
+      Hello world
+    </h2>
+    <input
+      class="py-1 px-2 mb-6 border-2 border-red-700 placeholder-green-700"
+      type="text"
+      placeholder="lorem ipsum"
+    />
+
+    <!-- Interlineado y espaciado -->
+    <p class="text-xl tracking-tighter leading-none">Mirando el espaciado...!</p>
+    <p class="text-xl tracking-tight leading-snug">Mirando el espaciado...!</p>
+    <p class="text-xl tracking-normal leading-loose">Mirando el espaciado...!</p>
+    <p class="text-xl tracking-wide leading-relaxed">Mirando el espaciado...!</p>
+    <p class="underline text-xl tracking-wider">Mirando el espaciado...!</p>
+    <p class="line-through text-xl tracking-widest">Mirando el espaciado...!</p>
+
+    <p class="text-xl my-8 text-justify">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse perferendis ratione
+      nesciunt provident in. Magni dolorem rem iusto ab accusamus culpa error quibusdam
+      dolore, magnam odio qui esse illum, sequi aliquid ratione minima fugit laborum. Nam
+      voluptates nesciunt suscipit quidem!
+    </p>
+
+    <p class="text-3xl font-sans bg-red-400">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, nesciunt. Iste tempora
+      totam quibusdam accusamus!
+    </p>
+    <p class="font-serif bg-yellow-400">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, nesciunt. Iste tempora
+      totam quibusdam accusamus!
+    </p>
+    <p class="font-mono bg-green-500">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, nesciunt. Iste tempora
+      totam quibusdam accusamus!
+    </p>
+    <ul class="text-4xl">
+      <li class="font-light">Lorem, ipsum</li>
+      <li class="font-hairline">Lorem, ipsum</li>
+      <li class="italic">Lorem, ipsum</li>
+      <li class="font-bold">Lorem, ipsum</li>
+      <li class="font-extrabold">Lorem, ipsum</li>
+    </ul>
+  </body>
 </html>

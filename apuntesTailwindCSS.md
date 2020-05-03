@@ -5,7 +5,8 @@
 
 # Inicializamos las herramientas instaladas:
 
--   `npx tailwindcss init`
+-   `npx tailwindcss init` --> Genera archivo configuracion vacio de nombre tailwind.config.js
+-   `npx tailwindcss init tailwind.config.full.js --full` --> Genera archivo configuracion completo
 
 # Creamos archivo de configuracion postcss.config.js
 
