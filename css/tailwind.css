@@ -2,7 +2,7 @@
 
 @tailwind components;
 
-@tailwind utilities;
+
 
 @responsive {
     .rotate_45 {
@@ -15,3 +15,28 @@
         transform: scale(2);
     }
 }
+
+.alert {
+    @apply bg-red-500;
+    @apply text-black;
+    @apply m-4;
+    @apply p-4;
+    @apply rounded-l;
+    @apply w-64;
+}
+
+.alert-danger {
+    @apply bg-red-700;
+    @apply text-white;
+}
+
+.alert-warning {
+    @apply bg-yellow-500;
+}
+
+.alert-info {
+    @apply bg-blue-700;
+    @apply text-white;
+}
+
+@tailwind utilities;
