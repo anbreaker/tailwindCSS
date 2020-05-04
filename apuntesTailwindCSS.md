@@ -18,12 +18,14 @@
 <!-- Instrucciones archivo postcss.config.js: -->
 
 - `touch postcss.config.js`
-- `module.exports = { plugins: [ require(‘tailwindcss’), require(‘autoprefixer’) ] }`
+- `module.exports = {
+    plugins: [require('tailwindcss'), require('autoprefixer')],
+};`
 
 ### Creacion archivo html y origen CSS
 
 - `mkdir css`
-- `touch tailwind.css`
+- `touch css/tailwind.css`
 
 ### Configuracion archivo css/tailwind.css
 
@@ -42,4 +44,3 @@
 <!-- genera una directorio css con su styels.css en la carpeta public -->
 
 - `npm run build`
-
